@@ -1,0 +1,41 @@
+header,
+main,
+section,
+footer,
+article {
+    display: block;
+}
+
+ul {
+    list-style: none
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    margin: 10px;
+}
+
+ul li:first-child {
+    padding-top: 30px;
+}
+
+ul li:last-child {
+    padding-bottom: 30px;
+}
+
+li input {
+    float: right
+}
+
+.wrapper {
+    width: 300px;
+    background: #b6b6b6
+}

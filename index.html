@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="include/style.css">
+    <meta charset="UTF-8">
+    <title>ex3</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <form action="http://html5-book.co.il/teach/forms/get_form2.php">
+
+            <ul>
+                <li>
+                    <label>
+                        Name
+                    </label>
+                    <input type="text" placeholder="FullName" name="fullName" required>
+                </li>
+
+                <li>
+                    <label>
+                        Email
+                    </label>
+                    <input type="email" placeholder="Enter your  Email" name="mail" required>
+                </li>
+                <li>
+                    <label>
+                        Password
+                    </label>
+                    <input type="password" placeholder="Enter your Password" name="pass" required>
+                </li>
+                <li>
+                    <label>
+                        Website
+                    </label>
+                    <input type="url" placeholder=" URL" name="website" required>
+
+                </li>
+
+                <li>
+                    <label>
+                        Phone
+                    </label>
+                    <input type="tel" placeholder="Your phone number" name="phone" required>
+
+                </li>
+
+                <li>
+                    <label>
+                        Coffee
+                    </label>
+                    <input type="number" name="coffee" placeholder=" coffee Amount ">
+
+                </li>
+
+                <li>
+                    <label>
+                        Temperature
+                    </label>
+                    <input type="text" placeholder="what's the temperature" name="temper">
+
+                </li>
+
+
+                <li>
+                    <label>
+                        Address
+                    </label>
+                    <input type="text" placeholder="your address" name="address" required>
+
+                </li>
+                <li>
+                    <label>
+                        Age
+                    </label>
+                    <input type="number" placeholder="your age" name="age" required>
+
+                </li>
+                <li>
+                    <label>
+                        Gender
+                    </label>
+
+                </li>
+
+                <li>
+
+                    <label>
+                        female:
+
+                        <input type="radio" name="interests[]" value="female">
+                        <div></div>
+                    </label>
+                    <label>
+                        male:
+
+                        <input type="radio" name="interests[]" value="male">
+                        <div></div>
+                    </label>
+                </li>
+
+
+                <li>
+                    <h4> Interests</h4>
+                </li>
+
+                <li>
+
+
+
+                    <label>
+                        reading books:
+
+                        <input type="checkbox" name="interests[]" value="books">
+                        <div></div>
+                    </label>
+                    <label>
+                        sleep:
+
+                        <input type="checkbox" name="interests[]" value="sleep">
+                        <div></div>
+                    </label>
+                    <label>
+                        playing:
+
+                        <input type="checkbox" name="interests[]" value="playing">
+                        <div></div>
+                    </label>
+
+                </li>
+
+                <li>
+                    <button type="submit" id="button_submit">Sign Up</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
